@@ -12,17 +12,18 @@
 </head>
 
 <body>
+    <header>
     @include('includes.header')
+    </header>
     @include('includes.hero')
 
 <main>
-    @yield('gallery')
-
+@include('includes.gallery')
 </main>
 @include('includes.footer')
 </body>
 
-   
+
    <script src="{{asset('js/app.js')}}"></script>
 
 </html>

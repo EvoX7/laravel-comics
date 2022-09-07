@@ -1,0 +1,71 @@
+@import "../style/variables.scss";
+
+footer {
+  position: relative;
+  background-color: $brandTertiary;
+}
+
+  #sub-footer1 {
+    background-color: $brandTertiary;
+    height: 100px;
+  }
+
+  #dc-heroes {
+    height: 380px;
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-size: 1950px;
+    overflow: hidden;
+  }
+
+  #dc-logo-bg {
+    float: right;
+    position: relative;
+    right: 260px;
+    bottom: 450px;
+  }
+
+  #btn-signup {
+    border: 2px solid $brandPrimary;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $brandPrimary;
+    }
+  }
+
+  li {
+    list-style: none;
+    letter-spacing: 1px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+
+    &:hover {
+      color: $brandPrimary;
+    }
+  }
+
+  #follow {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: $brandPrimary;
+  }
+
+  #footer-socials {
+    display: flex;
+    align-content: center;
+  }
+
+  #footer-nav {
+    text-align: left;
+    margin-top: 50px;
+    display: flex;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+  }
