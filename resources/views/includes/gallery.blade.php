@@ -1,16 +1,14 @@
 <main>
-    <div class="container d-flex flex-wrap pt-5">
-        <div class="container d-flex flex-wrap pt-5">
+    <div class="container d-flex flex-wrap pt-5 mt-5">
 
-            @foreach ($comics as $comic)
-            <div class="thumb_wrapper">
+        @foreach ($comics as $comic)
+        <div class="thumb_wrapper">
 
-                <div class="container_imgs ">
-                    <img src="{{ $comic -> image }}" alt="thumbnails" />
-                </div>
-                <h6 class="text-wrap">{{ $comic -> title}}</h6>
-                <p>{{ $comic -> type }}</p>
+            <div class="container_imgs ">
+                <img src="{{ $comic -> image }}" alt="thumbnails" />
             </div>
+            <h6 class="text-wrap">{{ $comic -> title}}</h6>
+            <p class="text-center">({{ $comic -> type }})</p>
         </div>
         @endforeach
     </div>

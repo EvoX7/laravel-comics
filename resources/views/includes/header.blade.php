@@ -1,9 +1,9 @@
-
-  <nav class="container d-flex align-items-center justify-content-between">
-    <div>
+<header>
+  <nav>
+    <div class="me-5 mt-2">
       <a href="https://www.dccomics.com/"><img id="logo" src="../assets/img/dc-logo.png" alt="dclogo" /></a>
     </div>
-    <ul class="d-flex me-5 pe-5">
+    <ul class="d-flex me-5 pe-5 links">
       @foreach ($links as $link)
       <li><a href="{{ $link -> url}}"> {{ $link -> text }}
         </a>
@@ -11,3 +11,4 @@
       @endforeach
     </ul>
   </nav>
+</header>

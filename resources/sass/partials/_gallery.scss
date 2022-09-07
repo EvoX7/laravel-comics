@@ -4,11 +4,13 @@ main {
     position: relative;
     background-color: $brandSecondary;
     color: white;
+    overflow: hidden;
   }
   
   .container {
     font-family: "Yanone Kaffeesatz", sans-serif;
     background-color: $brandSecondary;
+    overflow: hidden;
   }
   
   #btn-loadmore {
@@ -38,6 +40,7 @@ main {
     transition: 0.3s;
     margin: 0 auto;
     position: relative;
-    bottom: 660px;
+    bottom: 740px;
     right: 550px;
+    
   }

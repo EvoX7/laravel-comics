@@ -10873,11 +10873,13 @@ main {
   position: relative;
   background-color: #1c1c1c;
   color: white;
+  overflow: hidden;
 }
 
 .container {
   font-family: "Yanone Kaffeesatz", sans-serif;
   background-color: #1c1c1c;
+  overflow: hidden;
 }
 
 #btn-loadmore {
@@ -10906,24 +10908,28 @@ main {
   transition: 0.3s;
   margin: 0 auto;
   position: relative;
-  bottom: 660px;
+  bottom: 740px;
   right: 550px;
 }
 
 header {
   display: flex;
   align-content: center;
-  height: 130px;
+  justify-content: center;
+  height: 7rem;
 }
 
 nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
   background-color: white;
   font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 #logo {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
 }
 
 li {
@@ -10939,6 +10945,10 @@ li {
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+}
+
+.links {
+  padding-left: 25rem;
 }
 
 #img-container {
