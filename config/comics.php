@@ -1,12 +1,14 @@
 <?php
 
-class Comic{
+class Comic
+{
 
 	public $title;
 	public $image;
 	public $type;
-	
-	public function __construct($_title, $_image, $_type) {
+
+	public function __construct($_title, $_image, $_type)
+	{
 		$this->title = $_title;
 		$this->image = $_image;
 		$this->type = $_type;
@@ -27,4 +29,3 @@ return [
 	new Comic("Batman: White Knight Presents: Harley Quinn #1", "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/10/BMWK_HQ_01_300-001_HD_5f7cb4945e13f6.89501032.jpg?itok=sVwALbUX", "comic book"),
 	new Comic("Catwoman Vol. 1: Copycats", "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/gn-covers/2019/04/CTWv1_CC_144-001_HD_5ca5299a751963.53054221.jpg?itok=ooPaoLDq", "graphic novel"),
 ];
-

@@ -1,0 +1,43 @@
+@import "./partials/_variables";
+
+main {
+    position: relative;
+    background-color: $brandSecondary;
+    color: white;
+  }
+  
+  .container {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-color: $brandSecondary;
+  }
+  
+  #btn-loadmore {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-color: $brandPrimary;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 auto;
+  
+    &:hover {
+      background-color: $brandTertiary;
+      border: 1px solid $brandPrimary;
+    }
+  }
+  
+  #current-series {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-color: $brandPrimary;
+    width: 250px;
+    height: 55px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 0 auto;
+    position: relative;
+    bottom: 660px;
+    right: 550px;
+  }
